@@ -43,7 +43,7 @@ export default function AdministrationPage() {
       MarathiName: "श्री. अशोक बाजीराव मिसाळ",
       EnglishName: "Mr. Ashok Bajirao Misal",
       positionKey: "Gramsevak / ग्रामसेवक",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/ashok_misal.jpg",
       phone: "+91-9921849463",
       phoneDevnagari: "+९१-९९२१८४९४६३",
       email: "ashokmisal16@gmail.com",
