@@ -35,7 +35,7 @@ const Officials = () => {
       MarathiName: "श्री. अशोक बाजीराव मिसाळ",
       EnglishName: "Mr. Ashok Bajirao Misal",
       positionKey: "officials.gramSevak",
-      image: "/images/back.jpg",
+      image: "/images/ashok_misal.jpg",
       phone: "+91-9921849463",
       phoneDevnagari: "+९१-९९२१८४९४६३",
       email: "ashokmisal16@gmail.com",
