@@ -23,7 +23,7 @@ export default function AdministrationPage() {
       MarathiName: "श्री. दिग्विजय शामराव माने",
       EnglishName: "Mr. Digvijay Shyamrao Mane",
       positionKey: "Sarpanch / सरपंच",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/sarpanch.jpeg",
       phone: "+91-9011702323",
       phoneDevnagari: "+९१-९०११७०२३२३",
       email: "",
@@ -33,7 +33,7 @@ export default function AdministrationPage() {
       MarathiName: "श्री. निवास बंडू गायकवाड",
       EnglishName: "Mr. Nivas Bandu Gaikwad",
       positionKey: "Up-Sarpanch / उप-सरपंच",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/upsarpanch.jpeg",
       phone: "+91-9764746976",
       phoneDevnagari: "+९१-९७६४७४६९७६",
       email: "",
@@ -55,7 +55,7 @@ export default function AdministrationPage() {
       MarathiName: "श्री. युवराज महादेव गायकवाड",
       EnglishName: "Mr. Yuvraj Mahadev Gaikwad",
       positionKey: "Member / सदस्य",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      image: "/images/Yuvraj_Gaikwad.jpeg",
       phone: "+91-7821932650",
       phoneDevnagari: "+९१-७८२१९३२६५०",
       email: "",
@@ -64,8 +64,8 @@ export default function AdministrationPage() {
       id: 5,
       MarathiName: "सौ. शुभांगी सचिन गायकवाड",
       EnglishName: "Mrs. Shubhangi Sachin Gaikwad",
-      positionKey: "Member / सदस्य",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      positionKey: "Member / सदस्या",
+      image: "/images/Shubhangi_Gaikwad.jpeg",
       phone: "+91-9529677578",
       phoneDevnagari: "+९१-९५२९६७७५७८",
       email: "",
@@ -84,8 +84,8 @@ export default function AdministrationPage() {
       id: 7,
       MarathiName: "सौ. वंदना दत्तात्रय गायकवाड",
       EnglishName: "Mrs. Vandana Dattatray Gaikwad",
-      positionKey: "Member / सदस्य",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      positionKey: "Member / सदस्या",
+      image: "/images/Vandana_Gaikwad.jpeg",
       phone: "+91-9309890263",
       phoneDevnagari: "+९१-९३०९८९०२६३",
       email: "",
@@ -94,8 +94,8 @@ export default function AdministrationPage() {
       id: 8,
       MarathiName: "सौ. अनिता अनिल माने",
       EnglishName: "Mrs. Anita Anil Mane",
-      positionKey: "Member / सदस्य",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      positionKey: "Member / सदस्या",
+      image: "/images/Anita_Mane.jpeg",
       phone: "+91-7620647376",
       phoneDevnagari: "+९१-७६२०६४७३७६",
       email: "",
@@ -104,8 +104,8 @@ export default function AdministrationPage() {
       id: 9,
       MarathiName: "सौ. सविता श्रीकांत गायकवाड",
       EnglishName: "Mrs. Savita Shrikant Gaikwad",
-      positionKey: "Member / सदस्य",
-      image: "/images/Seal_of_Maharashtra.svg.png",
+      positionKey: "Member / सदस्या",
+      image: "/images/Savita_Gaikwad.jpeg",
       phone: "+91-8080957857",
       phoneDevnagari: "+९१-८०८०९५७८५७",
       email: "",
@@ -113,25 +113,6 @@ export default function AdministrationPage() {
   ];
 
   // const administrativeStaff = [
-  //   {
-  //     id: 7,
-  //     MarathiName: "संतोष भिमराव पाटील",
-  //     EnglishName: "Santosh Bhimrao Patil",
-  //     position: "पोलीस पाटील /Police Patil",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9270001001",
-  //     phoneDevnagari: "+९१-९२७०००१००१",
-  //   },
-  //   {
-  //     id: 8,
-  //     MarathiName: "संतोष जयवंत जगताप ",
-  //     EnglishName: "Santosh Jaywant Jagtap",
-  //     position:
-  //       "तंटामुक्ती अध्यक्ष / President, Dispute-Free Village Committee",
-  //     image: "/images/official3.jpg",
-  //     phone: "+91-9689845978",
-  //     phoneDevnagari: "+९१-९६८९८४५९७८",
-  //   },
   // ];
 
   const committees = [
@@ -195,7 +176,7 @@ export default function AdministrationPage() {
                 <div className="bg-gradient-to-r from-government-blue to-government-green p-4 text-white text-center">
                   <div className="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden border-4 border-white">
                     <Image
-                      src={"/images/Seal_of_Maharashtra.svg.png"}
+                      src={member.image}
                       alt={"member.name"}
                       width={500}
                       height={500}
